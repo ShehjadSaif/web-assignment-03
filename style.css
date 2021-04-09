@@ -37,8 +37,8 @@ h4{
 }
 
 .catalog-woman .card, .catalog-man .card{
-    width: 350px;
     border-radius: 15px;
+    margin-bottom: 25px;
 }
 
 .catalog-woman img, .catalog-man img{
