@@ -68,3 +68,35 @@ h4{
 .last .card img{
     width: 70px;
 }
+
+
+/* animation */
+
+#ani1{
+    transition: .8s ease;
+}
+#ani1:hover{
+    transform: translateX(100px);
+}
+
+#ani2{
+    transition: .8s ease;
+}
+#ani2:hover{
+    transform: translateX(-50px) scale(1.3);
+}
+
+.catalog-woman .card, .catalog-man .card{
+    transition: .8s ease;
+}
+.catalog-woman .card:hover, .catalog-man .card:hover{
+    transform: rotate(5deg) scale(1.1);
+}
+
+.last .card{
+    transition: .8s ease;
+}
+
+.last .card:hover{
+    transform: scale(1.1)
+}
